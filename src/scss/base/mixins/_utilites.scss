@@ -58,12 +58,18 @@
   font: #{$w} $s $f;
 }
 
-@mixin setCssVar($cssProp, $val) {
-  $prefix: if(variable-exists(prefix), #{$prefix}, "");
-  --#{$prefix}#{$cssProp}: #{$val};
+@mixin cssvars($css_variables, $prefix: beetroot) {
+  :root {
+    @each $name, $value in $css_variables {
+      --#{$prefix}-#{$name}: #{$value};
+    }
+  }
 }
 
-@mixin getCssVar($cssProp, $cssVar: $cssProp) {
-  $prefix: if(variable-exists(prefix), #{$prefix}, "");
-  #{$cssProp}: var(--#{$prefix}#{$cssVar});
+@function cssvar($name, $prefix: beetroot) {
+  @return var(--#{$prefix}-#{$name});
+}
+
+@mixin cssvar($name, $value: "", $prefix: beetroot) {
+  --#{$prefix}-#{$name}: #{$value};
 }

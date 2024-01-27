@@ -1,9 +1,9 @@
 html {
-  @include getCssVar(font-size);
+  font-size: cssvar(font-size);
 }
 
 body {
-  @include getCssVar(font-family);
+  font-family: cssvar(font-family);
   font-size: 1rem;
 }
 

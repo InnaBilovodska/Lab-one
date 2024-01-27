@@ -10,7 +10,7 @@ $desktopPadding: 1rem;
 
 // Paths
 
-$imagesPath: "../i/";
+$i: "../i/";
 $fontsPath: "../fonts/";
 $usersFilesPath: "../userfiles/";
 
@@ -23,7 +23,9 @@ $purple: #6f42c1 !default;
 $pink: #d63384 !default;
 $red: #dc3545 !default;
 
-$colors: (
+$cssvars: (
+  "font-family": $baseFontFamily,
+  "font-size": $baseFontSize,
   "black": $black,
   "white": $white,
   "blue": $blue,
