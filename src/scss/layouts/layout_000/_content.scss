@@ -1,0 +1,75 @@
+.block-box {
+  background-color: cssvar(bgColorContent);
+  border-radius: rem(10px);
+  margin-top: rem(10px);
+  &__menu {
+    display: none;
+  }
+  &__post-date {
+    width: rem(83px);
+    height: rem(75px);
+    border: 1px solid cssvar(white);
+    border-radius: rem(10px);
+    background: cssvar(white);
+    position: relative;
+    margin-top: rem(-79px);
+    margin-left: rem(12px);
+    text-align: center;
+    &_one {
+      color: red;
+      font-size: rem(30px);
+      font-weight: 700;
+      margin: 0;
+    }
+    &_two {
+      font-size: rem(16px);
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+  &__img {
+    width: 100%;
+  }
+  &__content {
+    &_name {
+      margin-left: rem(11px);
+      margin-top: rem(29px);
+      margin-bottom: 0;
+      font-size: rem(24px);
+    }
+    &_text {
+      margin-left: rem(14px);
+      margin-top: rem(8px);
+      margin-bottom: rem(21px);
+      font-size: rem(18px);
+      font-weight: 300;
+    }
+    &_read {
+      font-size: rem(14px);
+      color: cssvar(white);
+      font-weight: 700;
+      border: 1px solid cssvar(buttonColor);
+      background: cssvar(buttonColor);
+      border-radius: rem(24px);
+      padding: 15px 35px;
+      margin-left: rem(11px);
+    }
+  }
+}
+.pagination {
+  margin-top: rem(26px);
+}
+.page {
+  display: inline-block;
+  background: cssvar(pageColor);
+  width: rem(50px);
+  height: rem(50px);
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin: 0 5px;
+  text-align: center;
+  line-height: rem(25px);
+}
+.page:active {
+  background: red;
+}

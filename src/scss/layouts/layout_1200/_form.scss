@@ -1,0 +1,21 @@
+.form {
+  display: block;
+  margin-top: rem(34px);
+  margin-left: rem(56px);
+  order: 2;
+  padding-inline: 0;
+  text-align: center;
+
+  &__img {
+    padding-top: rem(24px);
+    padding-inline: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__cont {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

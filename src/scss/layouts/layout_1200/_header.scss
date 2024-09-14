@@ -1,0 +1,21 @@
+.header {
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "logo naw language"
+    "search search search";
+  &__logo {
+    margin-top: rem(15px);
+  }
+  &__nav {
+    &_items {
+      margin-top: rem(35px);
+    }
+  }
+  &__search {
+    margin-top: rem(17px);
+    width: 55%;
+  }
+  &__language {
+    margin-top: rem(33px);
+  }
+}

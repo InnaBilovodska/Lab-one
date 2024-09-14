@@ -1,0 +1,18 @@
+.banner {
+  width: 100%;
+  background-color: cssvar(banerColor);
+  background-clip: content-box;
+  text-align: center;
+  margin-top: rem(22px);
+  &__img {
+    padding-top: rem(9px);
+    padding-bottom: rem(23px);
+  }
+  &__name {
+    font-size: rem(24px);
+    font-family: cssvar(font-family);
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: rem(12px);
+  }
+}

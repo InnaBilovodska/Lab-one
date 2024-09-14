@@ -1,0 +1,15 @@
+.banner {
+  display: flex;
+  &__img {
+    width: rem(260px);
+    height: rem(128px);
+    margin-left: rem(63px);
+    margin-top: rem(19px);
+    margin-bottom: rem(33px);
+  }
+  &__name {
+    margin-left: rem(31px);
+    margin-top: rem(66px);
+    padding: 0;
+  }
+}

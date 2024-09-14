@@ -1,0 +1,60 @@
+.header {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 12px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "logo naw"
+    "logo language"
+    "search search";
+
+  &__logo {
+    grid-area: logo;
+    &_logos {
+      position: absolute;
+      padding-top: rem(8px);
+    }
+
+    &_name {
+      font-size: rem(36px);
+      margin: 0;
+      position: relative;
+      padding-left: rem(60px);
+    }
+    &_text {
+      font-size: rem(14px);
+      font-weight: 400;
+      margin: 0;
+      position: relative;
+      padding-left: rem(60px);
+    }
+  }
+  &__nav {
+    grid-area: naw;
+    margin-left: auto;
+    padding-top: rem(6px);
+
+    &_items {
+      display: none;
+    }
+  }
+  &__language {
+    grid-area: language;
+    margin-left: auto;
+    margin-top: rem(12px);
+  }
+  &__search {
+    grid-area: search;
+    margin-top: rem(24px);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 2px solid cssvar(searchColor);
+    border-radius: rem(27px);
+    padding: 5px 10px;
+    &_button {
+      margin-left: auto;
+    }
+  }
+}

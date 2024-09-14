@@ -1,0 +1,23 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-top: rem(44px);
+}
+.categories__blog {
+  order: 1;
+  margin-left: rem(61px);
+}
+.top-articles {
+  order: 3;
+  margin-top: rem(73px);
+  margin-left: rem(58px);
+}
+.blog-categories__buying:active::before {
+  color: blue;
+}
+.count:active {
+  color: blue;
+}
+.blog-categories__buying:active {
+  color: red;
+}

@@ -1,0 +1,56 @@
+.form {
+  background-color: cssvar(bgListen);
+  border-radius: rem(10px);
+  &__img {
+    display: block;
+    padding-top: rem(24px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px;
+
+    &_name {
+      font-size: rem(30px);
+      font-weight: 400;
+      color: cssvar(white);
+      margin-top: rem(10px);
+      text-align: center;
+    }
+    &_text {
+      font-size: 16px;
+      font-weight: 400;
+      color: cssvar(white);
+      margin-top: rem(43px);
+      margin-bottom: 0;
+      text-align: center;
+    }
+    &_email {
+      font-size: rem(16px);
+      font-weight: 400;
+      color: rgba(157, 157, 157, 1);
+      margin-top: rem(43px);
+      border: 1px solid cssvar(white);
+      border-radius: rem(27px);
+      background: cssvar(white);
+      padding-block: rem(12px);
+      padding-left: rem(70px);
+    }
+    &_button {
+      font-size: rem(16px);
+      font-weight: 400;
+      color: cssvar(white);
+      border: 1px solid cssvar(buttonColor);
+      border-radius: rem(27px);
+      background: cssvar(buttonColor);
+      padding: 12px 70px;
+      margin-top: rem(10px);
+      margin-bottom: rem(28px);
+    }
+  }
+}

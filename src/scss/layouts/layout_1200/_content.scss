@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "content sidebar";
+}
+.content {
+  grid-area: content;
+  margin-top: rem(42px);
+}
+.block-box {
+  margin-top: 0;
+  &__content_read {
+    margin-bottom: rem(55px);
+  }
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+.pagination {
+  text-align: center;
+  margin-top: rem(42px);
+  margin-bottom: rem(44px);
+}

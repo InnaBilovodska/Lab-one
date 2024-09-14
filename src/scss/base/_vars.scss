@@ -1,11 +1,12 @@
 //fonts
-$google-font: "https://fonts.googleapis.com/css?family=Ubuntu:400,500";
+$google-font: "https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap";
+
 $prefix: prefix- !default;
 $baseFontSize: 16px;
 $baseFontFamily: "Ubuntu", sans-serif;
 $mediumFontWeight: 500;
 
-$mobilePadding: (12px / $baseFontSize) * 1rem;
+$mobilePadding: 12px;
 $desktopPadding: 1rem;
 
 // Paths
@@ -17,20 +18,26 @@ $usersFilesPath: "../userfiles/";
 // Colors
 $black: #000000;
 $white: #ffffff;
-$blue: #0d6efd !default;
-$indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
-$pink: #d63384 !default;
-$red: #dc3545 !default;
+$banerColor: rgba(255, 234, 162, 1);
+$contentColor: rgba(245, 247, 250, 1);
+$buttonColor: rgba(230, 58, 40, 1);
+$bgListen: rgba(120, 40, 230, 1);
+$searchColor: rgba(221, 221, 221, 1);
+$bgColorContent: rgba(245, 247, 250, 1);
+$pageColor: rgba(238, 238, 238, 1);
+$colorBulit: rgba(204, 204, 204, 1);
 
 $cssvars: (
   "font-family": $baseFontFamily,
   "font-size": $baseFontSize,
   "black": $black,
   "white": $white,
-  "blue": $blue,
-  "indigo": $indigo,
-  "purple": $purple,
-  "pink": $pink,
-  "red": $red,
-) !default;
+  "banerColor": $banerColor,
+  "contentColor": $contentColor,
+  "buttonColor": $buttonColor,
+  "bgListen": $bgListen,
+  "searchColor": $searchColor,
+  "bgColorContent": $bgColorContent,
+  "pageColor": $pageColor,
+  "colorBulit": $colorBulit,
+);

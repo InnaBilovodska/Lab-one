@@ -8,21 +8,197 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Index.html</h1>
-      <a href="about.html">About.html</a>
+    <!-- HEADER -->
 
-      <form>
-        <div>
-          <label for=""> Name</label>
-          <input type="text" />
+    <header class="header">
+      <div class="header__logo">
+        <span class="header__logo_logos"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="54" height="55">
+            <use href="i/sprite.svg#logo" /></svg
+        ></span>
+        <h1 class="header__logo_name">Doremi</h1>
+        <h2 class="header__logo_text">Buy, Sell Or Rent</h2>
+      </div>
+      <div class="header__nav">
+        <div class="header__nav_burger">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="22">
+            <use href="i/sprite.svg#burger" />
+          </svg>
         </div>
-        <div><button>Click me</button></div>
-      </form>
-    </div>
+        <ul class="header__nav_items">
+          <li class="header__nav_item">Explore</li>
+          <li class="header__nav_item">About Us</li>
+          <li class="header__nav_item">Pages</li>
+          <li class="header__nav_item">
+            <div class="register_img">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21">
+                <use href="i/sprite.svg#cursor" />
+              </svg>
+            </div>
+            <a class="register" href="#">Sign in or Register</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__search">
+        <input type="text" placeholder="Search..." />
+        <button class="header__search_button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23">
+            <use href="i/sprite.svg#search" />
+          </svg>
+        </button>
+      </div>
+      <div class="header__language">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23">
+          <use href="i/sprite.svg#eng" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="18">
+          <use href="i/sprite.svg#engf" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18">
+          <use href="i/sprite.svg#Icon" />
+        </svg>
+      </div>
+    </header>
 
-    <!--  JavaScript here -->
-    <!-- <script src="js/app.js"></script> -->
-    <script src="js/script.js"></script>
+    <!-- BANNER -->
+    <div class="banner">
+      <img
+        src="i/auf_banner_image 1.png"
+        alt="banner"
+        title="banner"
+        class="banner__img"
+      />
+      <h2 class="banner__name">
+        Help Ukraine with the Beetroot Tech Relief Fund
+      </h2>
+    </div>
+    <!-- CONTAINER -->
+    <div class="container">
+      <!-- CONTENT -->
+      <div class="content">
+        <div class="block-box">
+          <img src="i/Post.jpg" alt="foto" class="block-box__img" />
+          <div class="block-box__post-date">
+            <p class="block-box__post-date_one">26</p>
+            <p class="block-box__post-date_two">SEP</p>
+          </div>
+          <div class="block-box__content">
+            <h3 class="block-box__content_name">
+              How To Buy, Sell or Rent Items From Doremi
+            </h3>
+            <ul class="block-box__menu">
+              <li class="block-box__menu_item">Admin</li>
+              <li class="block-box__menu_item">Rent Buy Sell</li>
+              <li class="block-box__menu_item">56 Comments</li>
+            </ul>
+            <p class="block-box__content_text">
+              Eiusmod temporl incididuntys labore dolore magna aliqua sed lorems
+              ipsum dolor amet consecteur eiusmod tempor incididunt ut labore et
+              dolor magna minim venia quis nostrud exercitation ullamco laboris
+              nisi ut aliquip.
+            </p>
+            <button class="block-box__content_read">READ MORE</button>
+          </div>
+        </div>
+        <div class="block-box">
+          <img src="i/Post.jpg" alt="foto" class="block-box__img" />
+          <div class="block-box__post-date">
+            <p class="block-box__post-date_one">26</p>
+            <p class="block-box__post-date_two">SEP</p>
+          </div>
+          <div class="block-box__content">
+            <h3 class="block-box__content_name">
+              How To Buy, Sell or Rent Items From Doremi
+            </h3>
+            <ul class="block-box__menu">
+              <li class="block-box__menu_item">Admin</li>
+              <li class="block-box__menu_item">Rent Buy Sell</li>
+              <li class="block-box__menu_item">56 Comments</li>
+            </ul>
+            <p class="block-box__content_text">
+              Eiusmod temporl incididuntys labore dolore magna aliqua sed lorems
+              ipsum dolor amet consecteur eiusmod tempor incididunt ut labore et
+              dolor magna minim venia quis nostrud exercitation ullamco laboris
+              nisi ut aliquip.
+            </p>
+            <button class="block-box__content_read">READ MORE</button>
+          </div>
+        </div>
+        <div class="pagination">
+          <article class="page">1</article>
+          <article class="page">2</article>
+          <article class="page">3</article>
+          <article class="page">&#8250;</article>
+        </div>
+      </div>
+
+      <!-- SIDEBAR -->
+
+      <div class="sidebar">
+        <div class="categories__blog">
+          <h3 class="categories__blog_name">Blog Categories</h3>
+          <ul class="blog-categories">
+            <li class="blog-categories__buying">
+              Buying Items <span class="count">(87)</span>
+            </li>
+            <li class="blog-categories__buying">
+              Selling Items <span class="count">(12)</span>
+            </li>
+            <li class="blog-categories__buying">
+              Renting Items <span class="count">(34)</span>
+            </li>
+            <li class="blog-categories__buying">
+              Promote Business <span class="count">(9)</span>
+            </li>
+            <li class="blog-categories__buying">
+              Worldwide Cities <span class="count">(50)</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="top-articles">
+          <h3 class="top-articles__name">Our Top Articles</h3>
+
+          <div class="article">
+            <img src="i/foto-gray.jpg" alt="foto" class="article__img" />
+            <div class="article__info">
+              <h3 class="article__name">How to spend up free vacations</h3>
+              <span class="article__category">Cars, Bikes &#38; Trucks</span>
+            </div>
+          </div>
+          <div class="article">
+            <img src="i/foto-gray.jpg" alt="foto" class="article__img" />
+            <div class="article__info">
+              <h3 class="article__name">Welcome to quarantine free travel</h3>
+              <span class="article__category">Drones, Cameras </span>
+            </div>
+          </div>
+          <div class="article">
+            <img src="i/foto-gray.jpg" alt="foto" class="article__img" />
+            <div class="article__info">
+              <h3 class="article__name">
+                10 most beautiful cities for traveling
+              </h3>
+              <span class="article__category">Electronic Items</span>
+            </div>
+          </div>
+        </div>
+
+        <!--FORM-->
+        <div class="form">
+          <img src="i/listen.png" alt="Listen" class="form__img" />
+          <div class="form__cont">
+            <h3 class="form__cont_name">Join Us &#38; Get Listed</h3>
+            <p class="form__cont_text">
+              Eiusmod tempor incididunt ut labore exercitation ullamco laboris.
+            </p>
+            <button class="form__cont_email">
+              <input type="text" placeholder="Enter your email" />
+            </button>
+            <button class="form__cont_button">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

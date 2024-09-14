@@ -1,0 +1,33 @@
+.form {
+  grid-area: form;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-row: 2;
+  &__img {
+    grid-column: 2/3;
+    padding-top: rem(74px);
+    padding-right: rem(46px);
+    grid-row: 1;
+    margin: 0;
+  }
+  &__cont {
+    grid-column: 1/2;
+    padding-top: rem(24px);
+    padding-left: rem(34px);
+    padding-right: rem(140px);
+    grid-row: 1;
+    margin: 0;
+    &_name {
+      text-align: center;
+    }
+    &_text {
+      padding-top: rem(25px);
+      padding-bottom: rem(20px);
+      margin: 0;
+    }
+    &_email {
+      padding-bottom: rem(10px);
+      margin: 0;
+    }
+  }
+}

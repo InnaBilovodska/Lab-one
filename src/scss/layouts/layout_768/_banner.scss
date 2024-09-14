@@ -1,0 +1,13 @@
+.banner {
+  display: flex;
+  &__img {
+    padding-left: rem(14px);
+    padding-top: rem(5px);
+    padding-bottom: rem(19px);
+  }
+  &__name {
+    padding-left: rem(25px);
+    padding-top: rem(35px);
+    padding-bottom: rem(40px);
+  }
+}

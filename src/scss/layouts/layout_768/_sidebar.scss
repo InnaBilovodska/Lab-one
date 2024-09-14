@@ -1,0 +1,33 @@
+.sidebar {
+  margin-top: rem(65px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "categories__blog top-articles"
+    "form form";
+}
+
+.categories__blog {
+  margin-top: 0;
+  padding-top: 0;
+  grid-area: categories__blog;
+  grid-row: 1;
+  &_name {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+.top-articles {
+  grid-area: top-articles;
+  grid-row: 1;
+  margin-left: rem(75px);
+  margin-top: 0;
+  padding-top: 0;
+  &__name {
+    margin: 0;
+  }
+}
+.article__name {
+  margin-bottom: rem(18px);
+}

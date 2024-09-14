@@ -1,0 +1,38 @@
+.header {
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "logo search language"
+    "naw naw naw";
+
+  &__nav {
+    &_items {
+      margin-left: -45%;
+      margin-top: rem(27px);
+      display: flex;
+      grid-gap: rem(62px);
+      list-style: none;
+      font-size: rem(16px);
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+    &_burger {
+      display: none;
+    }
+  }
+  &__search {
+    margin-top: rem(5px);
+    margin-left: rem(30px);
+    width: 90%;
+  }
+  &__language {
+    margin-top: rem(23px);
+  }
+}
+.register_img {
+  position: absolute;
+}
+.register {
+  position: relative;
+  left: rem(25px);
+  color: cssvar(black);
+}

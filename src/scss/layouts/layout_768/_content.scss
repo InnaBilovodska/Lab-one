@@ -1,0 +1,41 @@
+.block-box {
+  margin-top: rem(13px);
+  &__menu {
+    display: flex;
+    list-style: none;
+    grid-gap: rem(36px);
+    font-size: rem(14px);
+    margin-top: rem(19px);
+    margin-bottom: rem(22px);
+    &_item {
+      padding-left: rem(30px);
+    }
+    &_item:active {
+      color: red;
+    }
+  }
+  &__img {
+    padding-left: rem(6px);
+    padding-right: rem(6px);
+  }
+
+  &__content {
+    &_name {
+      margin-left: rem(52px);
+      margin-top: rem(39px);
+      margin-bottom: rem(22px);
+    }
+    &_text {
+      margin-left: rem(52px);
+      margin-top: rem(14px);
+    }
+    &_read {
+      margin-left: rem(49px);
+      margin-top: rem(13px);
+    }
+  }
+}
+.pagination {
+  margin-top: rem(47px);
+  margin-left: rem(30px);
+}
