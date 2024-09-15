@@ -1,5 +1,5 @@
 .header {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 12px;
   display: grid;
@@ -18,16 +18,12 @@
 
     &_name {
       font-size: rem(36px);
-      margin: 0;
-      position: relative;
-      padding-left: rem(60px);
+      @include logo;
     }
     &_text {
       font-size: rem(14px);
       font-weight: 400;
-      margin: 0;
-      position: relative;
-      padding-left: rem(60px);
+      @include logo;
     }
   }
   &__nav {

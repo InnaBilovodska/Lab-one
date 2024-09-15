@@ -73,3 +73,9 @@
 @mixin cssvar($name, $value: "", $prefix: beetroot) {
   --#{$prefix}-#{$name}: #{$value};
 }
+@mixin logo {
+  margin: 0;
+  position: relative;
+  padding-left: rem(60px);
+  @content;
+}
