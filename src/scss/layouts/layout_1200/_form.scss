@@ -16,5 +16,9 @@
     display: block;
     text-align: center;
     padding-inline: rem(5px);
+    &_button:hover {
+      background-color: rgb(185, 8, 8);
+      transition: 0.7s;
+    }
   }
 }

@@ -12,6 +12,10 @@
   &__content_read {
     margin-bottom: rem(55px);
   }
+  &__content_read:hover {
+    background-color: rgb(185, 8, 8);
+    transition: 0.7s;
+  }
 }
 
 .sidebar {
